@@ -1,0 +1,15 @@
+.div-bg-container {
+  background-color: black;
+  padding: 50px 50px;
+}
+
+.similar-jobs-heading {
+  color: white;
+}
+
+.similar-jobs-ul {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+  flex-wrap: wrap;
+}

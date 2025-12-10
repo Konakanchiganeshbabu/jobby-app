@@ -1,0 +1,45 @@
+.filters-container {
+  display: flex;
+  flex-direction: column;
+  padding: 15px 10px;
+}
+
+.employment-filter {
+  margin-top: 20px;
+  border-bottom: 2px solid #475569;
+  border-top: 2px solid #475569;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+}
+
+.salary-filter {
+  margin-top: 20px;
+}
+
+.filters-title {
+  color: white;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.filter-list {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0;
+}
+
+.label-item {
+  color: white;
+  font-size: 14px;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.filter-li-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 8px;
+}
